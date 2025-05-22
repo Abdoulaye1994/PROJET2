@@ -1,0 +1,61 @@
+{
+  "name": "distinction-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "http://yekpondafe-001-site1.ptempurl.com/",
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^5.17.1",
+    "@mui/material": "^5.17.1",
+    "@react-pdf/renderer": "^4.3.0",
+    "axios": "^0.27.2",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.1",
+    "date-fns": "^4.1.0",
+    "fedapay": "^1.2.4",
+    "https-browserify": "^1.0.0",
+    "jspdf": "^3.0.1",
+    "os-browserify": "^0.3.0",
+    "papaparse": "^5.5.2",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-router-dom": "^6.30.0",
+    "react-scripts": "^5.0.1",
+    "recharts": "^2.15.3",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.4",
+    "util": "^0.12.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.62",
+    "@types/react-dom": "^18.2.19",
+    "@types/react-router-dom": "^5.3.3",
+    "node-polyfill-webpack-plugin": "^4.1.0",
+    "react-app-rewired": "^2.2.1",
+    "typescript": "^5.4.3"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+Configuration FTP pour site4now.net
+
+1. Ouvrez FileZilla
+2. Dans la barre de menu, cliquez sur "Fichier" -> "Site Manager"
+3. Cliquez sur "Nouveau site" et nommez-le "DISTINCTION APP"
+4. Dans l'onglet "Général", configurez :
+   - Host: ftp.yekpondafe-001-site1.ptempurl.com
+   - Port: 21
+   - Protocole: FTP - File Transfer Protocol
+   - Mode de transfert: Actif
+   - Type: Normal
+5. Dans l'onglet "Authentification", configurez :
+   - Type: Normal
+   - Utilisateur: votre_username_ftp
+   - Mot de passe: votre_mot_de_passe_ftp
+6. Dans l'onglet "Avancé", configurez :
+   - Chemin initial: /
+7. Cliquez sur "Connexion" pour tester
+
+Si la connexion échoue, essayez :
+1. Changer le mode de transfert vers Passif
+2. Vérifier les logs d'erreur dans FileZilla
+3. Vérifier si le pare-feu n'empêche pas la connexion
+4. Vérifier si le port 21 est ouvert
+
+Une fois connecté, vous devriez voir :
+- Le dossier public_html (ou wwwroot)
+- Le dossier php-backend que nous allons créer
+
+Si vous ne voyez pas ces dossiers, créez-les :
+1. Cliquez avec le bouton droit sur le dossier racine
+2. Sélectionnez "Créer le dossier"
+3. Nommez-le "public" pour le frontend
+4. Nommez-le "php-backend" pour le backend

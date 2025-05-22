@@ -1,0 +1,48 @@
+Configuration FTP pour site4now.net
+
+1. Ouvrez FileZilla
+2. Dans la barre de menu, cliquez sur "Fichier" -> "Site Manager"
+3. Cliquez sur "Nouveau site" et nommez-le "DISTINCTION APP"
+4. Dans l'onglet "Général", configurez :
+   - Host: ftp.site4now.net
+   - Port: 21
+   - Protocole: FTP - File Transfer Protocol
+   - Mode de transfert: Passif
+   - Type: Normal
+5. Dans l'onglet "Authentification", configurez :
+   - Type: Normal
+   - Utilisateur: yekpondafe-001-site1
+   - Mot de passe: votre_mot_de_passe_ftp
+6. Dans l'onglet "Avancé", configurez :
+   - Chemin initial: /public_html
+   - Cochez "Forcer le type de connexion"
+   - Sélectionnez "FTP"
+7. Cliquez sur "Connexion" pour tester
+
+Si la connexion échoue, essayez ces alternatives :
+
+1. Configuration alternative 1 :
+   - Host: ftp.yekpondafe-001-site1.ptempurl.com
+   - Port: 21
+   - Mode: Passif
+   - Type: Normal
+
+2. Configuration alternative 2 :
+   - Host: ftp.site4now.net
+   - Port: 22
+   - Protocole: SFTP
+   - Mode: Actif
+   - Type: SSH
+
+3. Configuration alternative 3 :
+   - Host: ftp.yekpondafe-001-site1.ptempurl.com
+   - Port: 22
+   - Protocole: SFTP
+   - Mode: Actif
+   - Type: SSH
+
+Si aucune configuration ne fonctionne :
+1. Contactez le support site4now.net
+2. Vérifiez si le pare-feu n'empêche pas la connexion
+3. Essayez avec un autre client FTP (comme WinSCP)
+4. Vérifiez les logs d'erreur dans FileZilla
